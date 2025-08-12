@@ -8,6 +8,7 @@ from .record_stream import RecordStream
 from .stream_ended import StreamEnded
 from .stream_frames import StreamFrames
 from .video_quality import VideoQuality
+from .stream_type import StreamType
 
 __all__ = (
     'AudioQuality',
@@ -20,4 +21,5 @@ __all__ = (
     'StreamEnded',
     'StreamFrames',
     'VideoQuality',
+    'StreamType',
 )
